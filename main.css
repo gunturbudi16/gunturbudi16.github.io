@@ -1,0 +1,113 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container{
+	background-color: aliceblue;
+	margin: auto;
+	width: 600px;
+	padding: 5px;
+	overflow: auto;
+}
+h1{
+	margin: auto;
+	padding: 0 20px;
+	font-size: 3em;
+	color: #fff;
+	text-shadow: 0 0 20px aquamarine;
+	text-align: center
+}
+.judul{
+	width: 600px;
+	border-bottom: 5px solid black;
+}
+.pilih{
+	height: 50px;
+	border-bottom: 5px solid black;
+}
+body{
+	background-image: url(leaves.png);
+}
+.inputan{
+	height: 150px;	
+}
+button{
+	margin-top: 50px;
+	margin-left: 250px;
+}
+.hasil{
+	text-align: center;
+	margin-bottom: 20px;
+}
+#ket{
+	height: 50px;
+	text-align: center;
+	padding: 0 10px;
+	font-size: 2em;
+	color: #fff;
+	text-shadow: 0 0 10px rgb(25, 228, 35);
+	height: 255px;
+}
+.footer{
+	border-top: 5px solid #ffb0c4;
+	text-align: center;
+	color: aqua;
+	background-color: black;
+	border-bottom: 5px solid aqua;
+}
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17D4FE;
+    font-size: 60px;
+    font-family: Orbitron;
+	letter-spacing: 7px;
+	margin-bottom: 5px;
+}
