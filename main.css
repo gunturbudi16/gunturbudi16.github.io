@@ -53,6 +53,7 @@ table {
 	width: 600px;
 	padding: 5px;
 	overflow: auto;
+	background-attachment: fixed;
 }
 h1{
 	margin: auto;
@@ -101,7 +102,7 @@ button{
 	border-bottom: 5px solid aqua;
 }
 .clock {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
@@ -109,4 +110,6 @@ button{
     font-size: 60px;
     font-family: Orbitron;
 	letter-spacing: 7px;
+	margin-bottom: 30px;
+	text-align: center;
 }
