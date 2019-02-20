@@ -59,8 +59,8 @@ h1{
 	margin: auto;
 	padding: 0 20px;
 	font-size: 3em;
-	color: #fff;
-	text-shadow: 0 0 20px aquamarine;
+	color: #49bdcf;
+	text-shadow: 0 0 20px #00d178;
 	text-align: center
 }
 .judul{
@@ -90,13 +90,12 @@ form{
 	margin-top: 10px;
 }
 #ket{
-	height: 50px;
 	text-align: center;
 	padding: 0 10px;
 	font-size: 2em;
 	color: #fff;
 	text-shadow: 0 0 10px rgb(25, 228, 35);
-	height: 255px;
+	height: 250px;
 }
 .footer{
 	border-top: 5px solid #ffb0c4;
