@@ -1,48 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Kalkulator Mencari KPK dan Fpb</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+	<title>Latihan Box Model</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="judul">
-            <img src="logo.png" alt="">
-            <h1>Kalkulator Ku</h1>
-        </div>
-        <div class="pilih">
-            <form >
-                <label id="header" display="block">Pilih Kalkulator Anda    :</label>
-                <select name="pilih" id="pilih" >
-                    <option value="zonk">Pilih Apa yang anda mau</option>
-                    <option value="penjumlahan">Penjumlahan </option>
-                    <option value="pengurangan">Pengurangan</option>
-                    <option value="perkalian">Perkalian</option>
-                    <option value="fpb">Faktor Paling Besar</option>
-                    <option value="kpk">Kelipatan Paling kecil </option>
-                </select>
-            </form>
-        </div>
-            <div class="inputan">
-                <label for="">Input Angka :</label>
-                <input type="text" id="angka1">
-                <label for="">Input Angka :</label>
-                <input type="text" id="angka2">
-                <button id="cekhasil">Cek Hasil</button>
-            </div>
-            <div id="MyClockDisplay" class="clock"></div>
-            <div id="ket"></div>
-                <div class="hasil">
-                    <label for="">Hasilnya adalah :</label>
-                    <input type="text" id="hasil" disabled>
-                </div>
-                <div class="footer">
-                        <p class="copy">Copyright 2019. Guntur Budi Kurniawan</p>
-                </div>
-    </div>
+<div class="container">
+	<div class="header">
+		<h1 class="judul">My Website</h1>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="kalku.html">Kalkulator</a></li>
+		</ul>
+	</div>
+	<div class="profile">
+		<p class="nama">Hi I'am Guntur</p>
+	</div>
+	<div class="travel"></div>
+	<div class="todo">
+		<input type="text" id="txt">
+		<button onclick="addLI()">Add</button>
+		<button onclick="editLI()">Edit</button>
+		<button onclick="deleteLI()">Delete</button>
+		
+		<ul id="list">
+			<li>Belajar HTML</li> 
+			<li>Belajar CSS</li>
+			<li>Belajar Javascript</li>
+			<li>Belajar PHP</li>
+		</ul>
+	</div>
+	<div class="footer">
+		<p class="copy"> <marquee>Copyright 2019. Guntur Budi Kurniawan</marquee></p>
+	</div>
+</div>
+<script src="index.js"></script>
 </body>
-<script src="main.js"></script>
 </html>

@@ -31,6 +31,24 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+.header {
+	padding: 20px;
+	padding-bottom: 10px;
+}
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+.header a{
+	text-decoration: none;
+	color: deepskyblue;
+	padding: 3px;
+}
+.header a:hover{
+	background-color: mediumturquoise;
+	color: white;
+}
 ol, ul {
 	list-style: none;
 }
@@ -115,4 +133,9 @@ form{
 	letter-spacing: 7px;
 	margin-bottom: 30px;
 	text-align: center;
+}
+h2{
+	text-align: left;
+	font-size: 30px;
+	color: grey;
 }
